@@ -1,0 +1,14 @@
+<svg width="197" height="188" viewBox="0 0 197 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="86.0811" cy="90.027" r="68.8649" fill="#1D4EFF"/>
+<path d="M47.6757 86.7374L76.3784 115.189L125.811 66.189" stroke="white" stroke-width="6"/>
+<line y1="-1.5" x2="28.0932" y2="-1.5" transform="matrix(0.162679 0.986679 0.986679 -0.162679 11.6344 13.7134)" stroke="#53ACFF" stroke-width="3"/>
+<line y1="-1.5" x2="28.0932" y2="-1.5" transform="matrix(0.978685 -0.205368 -0.205368 -0.978685 0 29.3252)" stroke="#53ACFF" stroke-width="3"/>
+<line y1="-1.5" x2="39.7297" y2="-1.5" transform="matrix(0.582656 -0.812719 -0.812719 -0.582656 1.53384 41.6084)" stroke="#53ACFF" stroke-width="3"/>
+<line y1="-1.5" x2="44.6545" y2="-1.5" transform="matrix(0.162679 0.986679 0.986679 -0.162679 170.791 138.065)" stroke="#FF46F8" stroke-width="3"/>
+<line y1="-1.5" x2="44.6545" y2="-1.5" transform="matrix(0.978685 -0.205368 -0.205368 -0.978685 152.297 162.881)" stroke="#FF46F8" stroke-width="3"/>
+<line y1="-1.5" x2="63.151" y2="-1.5" transform="matrix(0.582656 -0.812719 -0.812719 -0.582656 156.061 182.405)" stroke="#FF46F8" stroke-width="3"/>
+<ellipse cx="47.5" cy="8" rx="5.5" ry="5" fill="#5CC4FF"/>
+<circle cx="134.5" cy="180.5" r="7.5" fill="#FF6B6B"/>
+<circle cx="49.5" cy="4.5" r="4" stroke="black"/>
+<path d="M143.5 175.5C143.5 179.399 140.558 182.5 137 182.5C133.442 182.5 130.5 179.399 130.5 175.5C130.5 171.601 133.442 168.5 137 168.5C140.558 168.5 143.5 171.601 143.5 175.5Z" stroke="black"/>
+</svg>

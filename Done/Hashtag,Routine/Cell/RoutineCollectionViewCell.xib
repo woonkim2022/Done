@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SpoqaHanSansNeo-Medium.ttf">
+            <string>SpoqaHanSansNeo-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RoutineCollectionViewCell" id="Ioh-nx-na9" customClass="RoutineCollectionViewCell" customModule="Done" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="126"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="cUV-Yx-vLA" customClass="RoundedView" customModule="Done" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="327" height="126"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vof-hO-GqE">
+                        <rect key="frame" x="10" y="53.5" width="307" height="19"/>
+                        <fontDescription key="fontDescription" name="SpoqaHanSansNeo-Medium" family="Spoqa Han Sans Neo" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.40000000000000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="vof-hO-GqE" firstAttribute="centerY" secondItem="cUV-Yx-vLA" secondAttribute="centerY" id="3uA-ML-v5R"/>
+                    <constraint firstItem="vof-hO-GqE" firstAttribute="centerX" secondItem="cUV-Yx-vLA" secondAttribute="centerX" id="Rcn-Tp-sMc"/>
+                    <constraint firstAttribute="trailing" secondItem="vof-hO-GqE" secondAttribute="trailing" constant="10" id="wpO-zx-joX"/>
+                    <constraint firstItem="vof-hO-GqE" firstAttribute="leading" secondItem="cUV-Yx-vLA" secondAttribute="leading" constant="10" id="xwc-9h-RwM"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                        <real key="value" value="15"/>
+                    </userDefinedRuntimeAttribute>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="isCircle" value="YES"/>
+                </userDefinedRuntimeAttributes>
+            </collectionViewCellContentView>
+            <size key="customSize" width="327" height="126"/>
+            <connections>
+                <outlet property="routineBackground" destination="cUV-Yx-vLA" id="Aw4-7F-zBt"/>
+                <outlet property="routineLb" destination="vof-hO-GqE" id="S5D-Qz-yXU"/>
+            </connections>
+            <point key="canvasLocation" x="267.1875" y="180"/>
+        </collectionViewCell>
+    </objects>
+</document>
